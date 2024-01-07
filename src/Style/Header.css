@@ -1,0 +1,44 @@
+.Header{
+    width: 100%;
+    height: 75px;
+    /* background-color: red; */
+    display: flex;
+    font-size: 17px;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+
+    >img{
+        position: relative;
+        width: 110px;
+        height: 60px;
+        left: 190px;
+        margin-top: 10px;
+    }
+
+    >div{
+        /* border: 1px solid black; */
+        width: 100%;
+        margin-left: 490px;
+
+        >a{
+            margin: 20px;
+            text-decoration: none;
+
+            &:hover{
+               color: orangered;
+               transition-duration: 200ms;
+               
+            }
+        }
+      
+    }
+
+
+    
+}
+
+.z{
+    color: orangered;
+} 
+
